@@ -13,7 +13,6 @@
   </head>
 
   <body>
-  <%= link_to "Log out", destroy_user_session_path, method: :delete %>
     <%= render 'shared/navbar' if current_user %>
     <div class="container">
       <%= yield %>
